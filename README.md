@@ -16,21 +16,22 @@ Agente especializado en crear propuestas comerciales elegantes en Word (`.docx`)
 ## Requisitos
 
 - Python 3.11+
-- [Claude Code](https://claude.ai/code) (CLI de Anthropic)
-- Dependencias Python:
-
-```bash
-pip install python-docx
-```
+- [Claude Code](https://claude.ai/code) — CLI de Anthropic (el agente corre dentro de Claude Code)
 
 ---
 
 ## Instalación
 
 ```bash
+# 1. Clona el repositorio
 git clone https://github.com/grinconcolmenia-hash/Proposal_Craft.git
 cd Proposal_Craft
-pip install python-docx
+
+# 2. Instala las dependencias Python
+pip install -r requirements.txt
+
+# 3. Abre el proyecto en Claude Code
+claude
 ```
 
 ---
